@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(223, 223, 223);
+    color: black;
+}
+
+form{
+    overflow: auto;
+}
+
+h2{
+    font-size: 2rem;
+    font-weight: 300;
+    word-spacing: 10px;
+    letter-spacing: 2.6px;
+    padding-block: 10px 0;
+}
+
+.form-input{
+    /* font-size: 1.2rem; */
+    font-weight: 100;
+    text-align: left;
+    padding: 2px 18px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.name{
+    display: block;
+}
+
+.flex{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+input{
+    border-radius: 7px;
+    padding: 7px;
+    margin-block: 4px;
+    /* border: none; */
+    border: 1.1px solid gray;
+    /* box-shadow: 1px 1px 2px black; */
+}
+
+.container form{
+    margin: 4% auto;
+    width: 40%;
+    height: 85vh;
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgb(194, 192, 192);
+}
+
+.btn{
+    border: none;
+    background-color: rgb(45, 45, 250);
+    padding: 7px 40%;
+    margin-block: 11px;
+    border-radius: 10px;
+    font-weight: 540;
+    font-size: 1.1rem;
+}
+
+.btn:hover{
+    background-color: rgb(34, 34, 201);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+p{
+    font-size: 1.07rem;
+    text-align: left;
+    padding: 5px 18px;
+    letter-spacing: 1.21px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(45, 45, 250);
+}
+
+
+
+
+/* This is media Query */
+@media screen and (max-width: 1200px){
+    h2{
+        font-size: 1.8rem;
+    }
+}
